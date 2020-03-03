@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
+// 数组声明
 func main() {
-	//test1()
+	test1()
 	//test2()
 	//test3()
-	test4()
+	//test4()
 }
 
 //  声明一个包含 5 个元素的整型数组  并设置为零值
@@ -14,9 +15,8 @@ func test1() {
 	var myAyyay [5]int
 	fmt.Println(myAyyay)
 	fmt.Println(len(myAyyay))
-	fmt.Println(myAyyay[3])
 	myAyyay[3] = 777
-	fmt.Println(myAyyay[3])
+	fmt.Println(myAyyay)
 }
 
 // 用具体值初始化每个元素 (使用数组字面量声明数组)
