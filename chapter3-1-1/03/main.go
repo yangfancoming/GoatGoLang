@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 数组声明
+// 切片声明
 func main() {
 	//test1()
 	//test2()
