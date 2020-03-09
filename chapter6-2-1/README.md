@@ -12,6 +12,13 @@
     运行后打印日志：  http server Running on http://localhost:8080 
     浏览器 输入  http://localhost:8080 
  
+ 
+ # bee
+    切换目录到  E:\Code\Golang\workspace\GoatGoLang\chapter6-2-1
+    运行  bee new item01
+    结论： 无论切换到哪个目录，bee new 只会在工程控件的src目录下创建 web框架
+    即： E:\Code\Golang\workspace\src 下 创建 item01 目录
+   
 
 # beego 安装报错： package github.com/astaxie/beego: exit status 128
 
@@ -33,3 +40,5 @@
     解决方法3：   
         git config --global url."git://github.com/astaxie/beego".insteadOf "https://github.com/astaxie/beego"    //命令修复
         再次运行  go get github.com/astaxie/beego 
+
+
